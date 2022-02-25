@@ -12,7 +12,7 @@
             "targetArchitecture": "arm",
             "preLaunchTask": "gdb-debug",
             "postDebugTask": "stop-emulation",
-            "serverLaunchTimeout": 10000,
+            "serverLaunchTimeout": -10000,
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],
